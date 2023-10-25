@@ -7,5 +7,5 @@
 
 int is_prime(int n)
 {
-	return( n % is_prime(n - (n - 2))
+	return( n % is_prime(n - (n - 2)));
 }
