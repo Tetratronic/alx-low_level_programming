@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-inr _strlen_recursion(char *s){
+int _strlen_recursion(char *s){
 	int count;
 
 	if (!*s)
