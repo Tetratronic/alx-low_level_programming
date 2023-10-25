@@ -5,7 +5,7 @@
  * Returns: 1 if true, else 0.
  */
 
-int is_prime(int n)
+int is_prime_number(int n)
 {
 	return( n % is_prime(n - (n - 2)));
 }
