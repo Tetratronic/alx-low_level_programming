@@ -3,15 +3,16 @@
 /**
  * _strlen_recursion - recursively count lenght of string
  * @s: pointer to string
- * Return: 0
+ * Return: int
  */
 
 int _strlen_recursion(char *s){
 	int count;
-	count = 0;
 
-	if (!*s)
-		return (count);
-	count += 1;
-	return (_strlen_recursion(s + 1));
+	if (*s)
+	{
+		count = 1;
+		count += _strlen_recursion(s + 1);
+	}
+	return (count);
 }
