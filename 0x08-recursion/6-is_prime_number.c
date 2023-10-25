@@ -6,7 +6,7 @@ int prime_helper(int n, int i);
 /**
  * is_prime_number - checks if a number is prime or not
  * @n: number to check
- * Returns: 1 if true, else 0.
+ * Return: 1 if true, else 0.
  */
 
 
