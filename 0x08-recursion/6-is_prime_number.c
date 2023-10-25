@@ -3,7 +3,8 @@
 int prime_helper(int n, int i);
 
 
-/** is_prime_number - checks if a number is prime or not
+/**
+ * is_prime_number - checks if a number is prime or not
  * @n: number to check
  * Returns: 1 if true, else 0.
  */
@@ -17,7 +18,8 @@ int is_prime_number(int n)
 }
 
 
-/** prime_helper - helper adds a counter
+/**
+ * prime_helper - helper adds a counter
  * @n: number to checl
  * @i: counter
  * Return: actual result
