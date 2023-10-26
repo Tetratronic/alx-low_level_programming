@@ -12,7 +12,7 @@ int is_palindrome(char *s)
 	if (*s == '\0')
 		return (1);
 
-	if (*s == s[strlen(s) - 2])
+	if (*s == *(s + strlen(s) - 1)
 		return (is_palindrome(s + 1));
 	else
 		return (0);
