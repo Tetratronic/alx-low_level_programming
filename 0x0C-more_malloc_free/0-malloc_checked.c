@@ -6,7 +6,6 @@
  * @b: size to allocate
  * Return: pointer or 98
  */
-
 void *malloc_checked(unsigned int b)
 {
 	void *mem;
@@ -15,5 +14,5 @@ void *malloc_checked(unsigned int b)
 	if (!mem)
 		exit(98);
 
-	return mem;
+	return (mem);
 }
