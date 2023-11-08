@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
- * free-dog - frees memroy aloocated for a dog
+ * free_dog - frees memroy aloocated for a dog
  * @d: struct dog to free
  */
 
