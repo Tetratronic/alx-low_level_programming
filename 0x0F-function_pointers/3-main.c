@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 	if (!func)
 	{
 		printf("Error\n");
-		exit(98);
+		exit(99);
 	}
 
 	op = *argv[2];
@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 	if ((op == '/' || op == '%') && arg2 == 0)
 	{
 		printf("Error\n");
-		exit(98);
+		exit(100);
 	}
 
 	result = func(arg1, arg2);
