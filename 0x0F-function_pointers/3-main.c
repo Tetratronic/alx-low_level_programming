@@ -2,7 +2,11 @@
 #include <stdio.h>
 #include "3-calc.h"
 
-/** main - main function
+/**
+ *  main - main function
+ *  @argc: number of args
+ *  @argv: array of args
+ *  Return: 0;
  *
  */
 
@@ -31,7 +35,7 @@ int main(int argc, char *argv[])
 
 	op = *argv[2];
 
-	if((op == '/' || op == '%') && arg2 == 0)
+	if ((op == '/' || op == '%') && arg2 == 0)
 	{
 		printf("Error\n");
 		exit(98);
